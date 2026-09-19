@@ -131,12 +131,16 @@
     <div class="container">
         <!-- Profile Image (Replace src with your image link or relative path) -->
         <div class="profile-img-container">
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=faces" alt="Profile Picture" class="profile-img">
+           <!-- Change this: -->
+<img src="https://images.unsplash.com/...placeholder-link..." alt="Profile Picture" class="profile-img">
+
+<!-- To this: -->
+<img src="my-photo.jpg" alt="Profile Picture" class="profile-img">
         </div>
 
         <!-- Name and Bio -->
         <h1 class="profile-name">Soul Dissolver</h1>
-        <p class="profile-bio">Creator, manager, and digital builder. Explore my work, channels, and professional links below.</p>
+        <p class="profile-bio">
 
         <!-- Links Container -->
         <div class="links-list">
